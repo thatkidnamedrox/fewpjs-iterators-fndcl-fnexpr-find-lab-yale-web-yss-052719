@@ -5,5 +5,7 @@ function testFunc() {
 }
 
 function superbowlWin(record) {
-
+  if (record.result === "N/A") {
+    
+  }
 }
