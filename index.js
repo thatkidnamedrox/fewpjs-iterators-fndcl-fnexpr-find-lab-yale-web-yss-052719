@@ -5,9 +5,5 @@ function testFunc() {
 }
 
 function superbowlWin(record) {
-  if (record.result === "N/A") {
-    return null;
-  } else {
-    return record.find(r => { r.result === 'W' })
-  }
+  record.find(r => { return r.result === "W" })
 }
