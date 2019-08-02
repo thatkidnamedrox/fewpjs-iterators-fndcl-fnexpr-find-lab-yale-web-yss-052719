@@ -9,6 +9,6 @@ function superbowlWin(record) {
   if (r) {
     return r.year
   }
-  
+
   return
 }
